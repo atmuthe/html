@@ -1,58 +1,42 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <script type="text/javascript">
-    function show(i1,i2,i3,i4,i5)
-    {
-      document.getElementById(i1).style.visibility="visible";
-      document.getElementById(i2).style.visibility="hidden";
-      document.getElementById(i3).style.visibility="hidden";
-      document.getElementById(i4).style.visibility="hidden";
-      document.getElementById(i5).style.visibility="hidden";
 
-
-    }
-  </script>
   <title>Cafeteria</title>
   <article> Coffee shop </article>
   <link rel="stylesheet" type="css/text" href="project1.css">
 </head>
 
 <body background="images/become-connoisseur-background.jpg">
-<div>
-  <div>
 
-    <nav>
-
-      <nav>
+      <nav >
         <ul>
           <li>
-            <a  href="#" onclick="show('home','about','menu','jobs','contact')" >Home</a>
+            <a  href="#home">Home</a>
           </li>
           <li>
-            <a href="#" onclick="show('about','home','menu','jobs','contact')" >About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#" onclick="show('menu','about','home','jobs','contact')">Menu</a>
+            <a href="#menu">Menu</a>
           </li>
           <li>
-            <a href="#" onclick="show('jobs','about','menu','home','contact')">Jobs</a>
+            <a href="#jobs">Jobs</a>
           </li>
           <li>
-            <a href="#" onclick="show('contact','about','menu','jobs','home')" >contact</a>
+            <a href="#contact">contact</a>
           </li>
         </ul>
-      </div>
+        </nav>
+
+
+
+    <div id="hidden">
+
+    <div class="main" id='home'>
+      <marquee style="color:red" > Welcome to Coffee shop</marquee>
     </div>
-
-
-
-
-
-    <div id='home'>
-      <marquee visibility:hidden direction="left" id="p"> Welcome to Coffee shop</marquee>
-    </div>
-    <div id='about' style="visibility:hidden">
+    <div class='main' id='about'>
       <img src='images/Coffee-Cup-Bowl-With-Grains-Images.jpg' style="width:500px" height="300px;">
       <p class="p1" style="word-spacing:15px;color:white;text-align:justify" >Café Coffee Day is a coffee shop for the young and the young at heart. We're part of Coffee Day Global Limited. We source our coffees from thousands of small coffee planters. They and the many plantation workers have truly made us who we are today and we're glad to be a part of their lives. Popularly known as CCD, we strive to provide the best experience to our guests. To put it plainly, we brought in the con"ep" of cafes to India (this is where you thank us!). The first one opened in 1996 on Brigade Road in Bangalore and continues to be one of the most happening places in the city. The young and the young at heart immediately took to the place. A smart, simple space that they could call their own for a while… sit down, talk and listen to conversations, hold short meetings or even have a lot of good fun…all over steaming cups of coffee. CCD today is totally in tune with its target audience. It’s a strong relationship the brand shares. It's been an exciting journey since then, becoming the largest organised retail cafe chain in the country. What's more if your travels take you to Austria, Czech Republic or Malaysia, do stop by our CCDs there for the taste of a blend from home.</p>
 
@@ -62,20 +46,125 @@
 
 
 
-    <div id='menu' style="visibility:hidden">
+    <div class="main" id='menu'>
      <div>
-      <dl >
-        <dt style="color:white">Drinks</dt><br>
+      <dl>
+        <div>
+          <dt class='list' href=".m1"style="color:white">BEVERAGES</dt><br>
 
-        <dd style="color:white;font-size:20px">Amazing coffees from around the world. Handcrafted beverages to discover and enjoy. We love bringing you these things. </dd><br>
+          <dd class='m1' href="#ddd1"style="color:white;font-size:20px">HOT COFFEE
+            <dl>
+             <dd class="dd" id="ddd1" style="color:white">CBzbzbnx</dd></br>
+           </dl>
 
-        <dt style="color:white">Food</dt><br>
 
-        <dd  style="color:white">Our pastries and sandwiches are made with high-quality, simple ingredients. So all the goodness you taste is real food, simply delicious.</dd><br>
+           <dd class='m1' href="#ddd2" style="color:white">COLD COFFEE
+            <dl>
+             <dd class="dd" id="ddd2" style="color:white">CBzbzbnx</dd></br>
+           </dl>
 
-        <dt style="color:white">Nutrition</dt><br>
+           <dd class='m1' href="#ddd3" style="color:white">INTERNATIONAL COFFEE
+            <dl>
+             <dd class="dd" id="ddd3" style="color:white">CBzbzbnx</dd></br>
+           </dl>
 
-        <dd  style="color:white ;text-alignment:centre">We have got the tools and data you need to find out what’s inside our food and drinks, so you can make the choices that work for you.</dd><br>
+           <dd class='m1' href="#ddd4" style="color:white">HOT TEAS
+            <dl>
+             <dd class="dd" id="ddd4" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+
+           <dd class='m1' href="#ddd5" style="color:white">COLD TEAS
+            <dl>
+             <dd class="dd" id="ddd5" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+
+           <dd class='m1' href="#ddd6" style="color:white">FROSTEAS
+            <dl>
+             <dd class="dd" id="ddd6" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+
+           <dd class='m1' href="#ddd7" style="color:white">FRAPPE
+            <dl>
+             <dd class="dd" id="ddd7" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+
+           <dd class='m1' href="#ddd8" style="color:white">CHOCOHOLICAS
+            <dl>
+             <dd class="dd" id="ddd8" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+
+           <dd class='m1'  href="#ddd9"style="color:white">FRUITEAZERS
+            <dl>
+             <dd class="dd" id="ddd9" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+
+           <dd class='m1'  href="#ddd10"style="color:white">SIP N SNACK
+            <dl>
+             <dd class="dd" id="ddd10" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+
+           <dd class='m1' href="#ddd11" style="color:white">SLUSSHH
+            <dl>
+             <dd class="dd" id="ddd11" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+
+           <dd class='m1'  href="#ddd12"style="color:white">LEMONADES
+            <dl>
+             <dd class="dd" id="ddd12" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+
+           <dd class='m1' href="#ddd13" style="color:white">QUENCHERS
+            <dl>
+             <dd class="dd" id="ddd13" style="color:white">CBzbzbnx</dd></br>
+           </dl></br>
+           </dl>
+         </div>
+
+        <div >
+        <div class="div2">
+          <dl >
+          <dt  class="list" href=".m2"style="color:white">FOOD</dt><br>
+          <dd  class="m2" href="#dd1" style="color:white">SMALL EATS
+            <dl>
+             <dd class="dd" id="dd1" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+
+          <dd  class="m2" href="#dd2" style="color:white">BIG EATS/ SANDWICHES
+          <dl>
+             <dd class="dd" id="dd2" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+          <dd  class="m2" href="#dd3" style="color:white">SWEET TREATS
+           <dl>
+             <dd class="dd" id="dd3" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+          <dd  class="m2" href="#dd4" style="color:white">SUNDAES
+          <dl>
+             <dd  class="dd" id="dd4" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+          <dd  class="m2" href="#dd5" style="color:white">CAKE AWAY
+          <dl>
+             <dd class="dd" id="dd5" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+          <dd  class="m2" href="#dd6" style="color:white">DESSERT SHOTS
+          <dl>
+             <dd  class="dd"id="dd6" style="color:white">CBzbzbnx</dd></br>
+           </dl>
+        </dl>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div>
+          <dt class='list' id="n" href="#m3" style="color:white">NUTRITION</dt><br>
+          <dd  id="m3"style="color:white ;text-alignment:centre">We have got the tools and data you need to find out whats inside our food and drinks, so you can make the choices that work for you.</dd><br>
+        </div>
       </dl>
     </div>
   </div>
@@ -87,9 +176,9 @@
 
 
 
-    <div id='jobs' style="visibility:hidden">
+    <div class="main" id='jobs'>
       <div>
-        <img src='images/vacancy (1).jpg' style="width:500px" "height=300px";>
+        <img src='images/vacancy.jpg' style="width:500px" "height=300px";>
       </div>
       <div>
         <form>
@@ -111,12 +200,56 @@
 
 
 
-    <div id='contact' style="visibility:hidden">
+    <div class ="main" id='contact'>
       <p id="df"> <a href="http://www.facebook.com/html/">like us on Facebook</a></p>
 
-</div>
+    </div>
 
 
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js">
+
+  </script>
+
+    <script type="text/javascript">
+       $("nav li a").click(function(){
+        var obj=$(this);
+        var _target=$(obj).attr('href');
+
+        $(".main").hide();
+        $(_target).show();
+
+      });
+ $(".list").click(function(){
+        var obj1=$(this);
+        var _menu=$(obj1).attr('href');
+
+        $(_menu).toggle();
+
+
+    });
+ $(".m2").click(function(){
+        var obj2=$(this);
+        var _menu1=$(obj2).attr('href');
+       $(".dd").hide();
+
+        $(_menu1).fadeIn("slow");
+
+
+    });
+ $(".m1").click(function(){
+        var obj2=$(this);
+        var _menu1=$(obj2).attr('href');
+       $(".dd").hide();
+        $(_menu1).fadeIn("slow");
+
+
+    });
+
+
+
+
+    </script>
 </body>
 <footer class='foot' style='visibility:visible'>Copyright © coffee cafe.com</footer>
 
