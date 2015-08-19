@@ -1,0 +1,75 @@
+a{
+  color: white;font-size: 25px;word-spacing: 6px
+}
+
+
+
+
+article{
+  color: white;text-align:center;font-size: 50px
+}
+
+
+
+
+
+#p{
+  font-size: 50px;color: red;text-indent:blink;
+  font-weight: bold;
+}
+
+
+
+
+ul li {
+  display:inline-block;
+  padding:1em 2em 1em 2em ;
+}
+.foot
+{
+  text-align:center;
+ color: white;
+ font-weight: bolder;
+
+
+}
+
+div img
+{
+     float: left;
+   margin-right: 2px;
+    padding-right: 15px;
+}
+
+.p1
+{
+  word-spacing: 10px;
+  margin-right: 10px;
+
+}
+
+/*dd{
+    display: none;
+}*/
+
+
+
+.main{
+  display: none;
+}
+#menu{
+  display: none;
+}
+.m1{
+  display: none;
+}
+.m2{
+  display: none;
+}
+#m3
+{
+  display: none;
+}
+.div1{
+  display: none;
+}
